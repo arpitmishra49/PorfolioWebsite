@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Arpit<span style="color:var(--primary-color)"> Mishra</span></a>
+            <input type="checkbox" id="nav-check">
+            <label for="nav-check" class="menu-toggle label-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container section-padding">
+        <div class="contact-container">
+            <h2 class="text-center">Get In Touch</h2>
+            <p class="text-center" style="margin-bottom: 3rem;">Have a project in mind? Looking to hire? Or just want to say hi? Drop me a line.</p>
+            
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name" class="form-control" placeholder="Arpit Mishra" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" class="form-control" placeholder="Arpit@example.com" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea id="message" class="form-control" rows="5" placeholder="Your message here..." required></textarea>
+                </div>
+                
+                <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>Arpit<span style="color:var(--primary-color)"> Mishra</span></h3>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-icon">GH</a>
+                <a href="#" class="social-icon">LI</a>
+                <a href="#" class="social-icon">TW</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
