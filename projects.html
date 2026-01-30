@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Projects</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Arpit<span style="color:var(--primary-color)"> Mishra</span></a>
+            <input type="checkbox" id="nav-check">
+            <label for="nav-check" class="menu-toggle label-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container section-padding">
+        <h2 class="text-center">Selected Works</h2>
+        <p class="text-center" style="max-width: 600px; margin: 0 auto 4rem;">A collection of projects I've worked on, ranging from web applications to marketing sites.</p>
+
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <article class="card">
+                <div class="badge">Featured</div>
+                <div class="card-image">
+                    <img src="assets/images/image.png" alt="Analytics Dashboard">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Socio Cart</h3>
+                    <div class="card-tags">
+                        <span class="tag">PERN Stack</span>
+                        <span class="tag">Social Media market place</span>
+                    </div>
+                    <p>A full-featured social media marketplace built using the PERN stack, enabling users to connect, share, and trade seamlessly with a scalable and efficient backend.</p>
+                </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="card">
+                <div class="card-image">
+                    <img src="assets/images/imageUrban.png" alt="E-commerce App">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Urban Weave</h3>
+                    <div class="card-tags">
+                        <span class="tag">MERN stack</span>
+                        <span class="tag">E-commerce Website</span>
+                    </div>
+                    <p>A modern clothing e-commerce website designed to deliver a smooth shopping experience with scalable architecture and secure backend functionality.</p>
+                </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="card">
+                <div class="card-image">
+                    <img src="assets/images/imageOS.png" alt="Agency Landing Page">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Realtime OS memory allocator</h3>
+                    <div class="card-tags">
+                        <span class="tag">HTML CSS Javascript</span>
+                        <span class="tag">Implemented best fit, first fit and worst fit</span>
+                    </div>
+                    <p>A real-time operating system memory allocator simulation that visually demonstrates memory allocation strategies using JavaScript, HTML, and CSS.</p>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>Arpit<span style="color:var(--primary-color)"> Mishra</span></h3>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-icon">GH</a>
+                <a href="#" class="social-icon">LI</a>
+                <a href="#" class="social-icon">TW</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
