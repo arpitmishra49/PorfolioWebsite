@@ -3,9 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Arpit<span style="color:var(--primary-color)"> Mishra</span></a>
+            
+            <!-- Checkbox Hack for Mobile Menu -->
+            <input type="checkbox" id="nav-check">
+            <label for="nav-check" class="menu-toggle label-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero container">
+        <div class="hero-content">
+            <h1>Building Scalable <span class="text-gradient">Web</span> Experiences.</h1>
+            <p>I’m a B.Tech Computer Science student specializing in Full Stack Web Development. Passionate about technology and problem-solving, I build scalable, high-performance web applications with a strong focus on clean architecture, usability, and modern design.</p>
+            <div class="hero-btn-group" style="display: flex; gap: 1rem; margin-top: 2rem;">
+                <a href="projects.html" class="btn">View Work</a>
+                <a href="contact.html" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-blob"></div>
+            <!-- Using the first project image as a hero visual for now, or a placeholder SVG -->
+            <img src="assets/images/project1.png" alt="Dashboard Preview" style="border-radius: 12px; box-shadow: 0 20px 50px rgba(0,0,0,0.5); transform: perspective(1000px) rotateY(-10deg) rotateX(5deg); max-width: 90%;">
+        </div>
+    </header>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>Arpit<span style="color:var(--primary-color)"> Mishra</span></h3>
+                <p>Creating with code & pixel.</p>
+            </div>
+            <div class="social-links">
+                <!-- Simple CSS Shapes as placeholders for icons to avoid external dependencies failure -->
+                <a href="#" class="social-icon" aria-label="GitHub">GH</a>
+                <a href="#" class="social-icon" aria-label="LinkedIn">LI</a>
+                <a href="#" class="social-icon" aria-label="Twitter">TW</a>
+            </div>
+            
+        </div>
+    </footer>
+
 </body>
 </html>
